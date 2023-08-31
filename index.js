@@ -2,7 +2,7 @@ const characters = ["A","B","C","D","E","F","G","H","I","J","K","L","M","N","O",
 
 let passOne = document.getElementById("pass-one");
 let passTwo = document.getElementById("pass-two");
-let passLength = 15;
+let passLength = 16;
 
 function getRandomIndex() {
    return Math.floor(Math.random() * characters.length)
@@ -21,4 +21,15 @@ function generatePasswords() {
     }
 }
 
+function setLength8() {
+    passLength = 8;
+}
+
+function setLength16() {
+    passLength = 16;
+}
+
+function setLength24() {
+    passLength = 24;
+}
 
