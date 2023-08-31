@@ -2,6 +2,7 @@ const characters = ["A","B","C","D","E","F","G","H","I","J","K","L","M","N","O",
 
 let passOne = document.getElementById("pass-one");
 let passTwo = document.getElementById("pass-two");
+let passLength = 15;
 
 function getRandomIndex() {
    return Math.floor(Math.random() * characters.length)
@@ -11,7 +12,7 @@ function generatePasswords() {
     passOne.textContent = "";
     passTwo.textContent = "";
 
-    for (let i = 0; i < 15; i++ ) {
+    for (let i = 0; i < passLength; i++ ) {
         let randomIndexOne = getRandomIndex();
         let randomIndexTwo = getRandomIndex();
 

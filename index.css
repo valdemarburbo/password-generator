@@ -14,6 +14,7 @@ main {
 h1 {
     color: white;
     font-weight: 900;
+    margin-bottom: 0.5rem;
 }
 
 .split-heading {
@@ -24,9 +25,26 @@ h1 {
 .lower-text {
     color: #D5D4D8;
     font-size: 0.95rem;
+    margin-top: 0;
+}
+
+.lower-text.choice {
+    margin-top: 2rem;
+}
+
+.length-btn {
+    border-style: none;
+    border-radius: 0.25rem;
+    font-family: "Inter";
+    font-size: 0.9rem;
+    padding: 0.6rem 0.75rem;
+    background-color: #2F3E53;
+    color: white;
+    margin: 0.5rem;;
 }
 
 .generate-btn {
+    display: block;
     border-style: none;
     border-radius: 0.25rem;
     font-family: "Inter";
@@ -34,11 +52,19 @@ h1 {
     padding: 0.6rem 0.75rem;
     background-color: #13b680;
     color: white;
-    margin: 1rem 1.25rem;
+    margin: 0.5rem 0.5rem 1rem 0.5rem;
 }
 
-.generate-btn:hover {
+.generate-btn:hover,
+.length-btn:hover {
     background-color: #1bd497;
+}
+
+.length-btn:focus,
+.length-btn:active,
+.length-btn:visited {
+    background-color: #1bd497;
+    font-weight: 700;
 }
 
 .line {
