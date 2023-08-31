@@ -28,43 +28,49 @@ h1 {
     margin-top: 0;
 }
 
+.options {
+    display: flex;
+    justify-content: space-between;
+}
+
 .lower-text.choice {
     margin-top: 2rem;
 }
 
-.length-btn {
+.btn {
     border-style: none;
     border-radius: 0.25rem;
     font-family: "Inter";
     font-size: 0.9rem;
     padding: 0.6rem 0.75rem;
     background-color: #2F3E53;
-    color: white;
+    color: whitesmoke;
     margin: 0.5rem;;
 }
 
 .generate-btn {
     display: block;
+    text-align: center;
     border-style: none;
     border-radius: 0.25rem;
     font-family: "Inter";
     font-size: 0.9rem;
     padding: 0.6rem 0.75rem;
     background-color: #13b680;
-    color: white;
-    margin: 0.5rem 0.5rem 1rem 0.5rem;
+    color: whitesmoke;
+    margin: 1rem auto 1rem auto;
 }
 
 .generate-btn:hover,
-.length-btn:hover {
+.btn:hover {
     background-color: #1bd497;
 }
 
-.length-btn:focus,
-.length-btn:active,
-.length-btn:visited {
+.btn:focus,
+.btn:active,
+.btn:visited {
     background-color: #1bd497;
-    font-weight: 700;
+    /* font-weight: 700; */
 }
 
 .line {

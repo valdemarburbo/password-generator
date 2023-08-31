@@ -15,11 +15,24 @@
 
         <p class="lower-text">Never use an insecure password again.</p>
 
-        <p class="lower-text choice">Choose your password length:</p>
+        <div class="options">
+            <div >
+                <p class="lower-text choice">Choose password length:</p>
 
-        <button class="length-btn" onclick="setLength8()">8</button>
-        <button class="length-btn" onclick="setLength16()">16</button>
-        <button class="length-btn" onclick="setLength24()">24</button>
+                <button class="btn" id="length-8" onclick="setLength8()">8</button>
+                <button class="btn" id="length-16" onclick="setLength16()">16</button>
+                <button class="btn" id="length-24" onclick="setLength24()">24</button>
+            </div>
+
+            <div>
+                <p class="lower-text choice">Choose character options:</p>
+
+                <button class="btn" id="everything" onclick="setEverything()">Everything</button>
+                <button class="btn" id="numbers" onclick="setNumbers()">Numbers</button>
+                <button class="btn" id="special" onclick="setSpecial()">Special</button>
+            </div>
+        </div>
+
 
         <button class="generate-btn" onclick="generatePasswords()">Generate passwords</button>
 
