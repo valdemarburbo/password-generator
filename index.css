@@ -1,3 +1,63 @@
 body {
     margin: 0;
+    background-color: #1F2937;
+    font-family: "Inter";
+}
+
+main {
+    background-color: #273549;
+    margin: 3rem;
+    padding: 3rem 2rem;
+    border-radius: 0.5rem;
+}
+
+h1 {
+    color: white;
+    font-weight: 900;
+}
+
+.split-heading {
+    display: block;
+    color: #4ADF86;
+}
+
+.lower-text {
+    color: #D5D4D8;
+    font-size: 0.95rem;
+}
+
+.generate-btn {
+    border-style: none;
+    border-radius: 0.25rem;
+    font-family: "Inter";
+    font-size: 0.9rem;
+    padding: 0.6rem 0.75rem;
+    background-color: #13b680;
+    color: white;
+    margin: 1rem 1.25rem;
+}
+
+.generate-btn:hover {
+    background-color: #1bd497;
+}
+
+.line {
+    width: 100%;
+    border-top:#2F3E53 solid 2px;
+    margin: 0.5rem 0;
+}
+
+.passwords {
+    display: flex;
+    justify-content: space-around;
+}
+
+#pass-one,
+#pass-two {
+    background-color: #2F3E53;
+    color: #55F991;
+    text-align: center;
+    border-radius: 0.25rem;
+    width: 40%;
+    padding: 0.5rem;
 }

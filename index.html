@@ -3,16 +3,26 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;900&family=Ubuntu:wght@300;400;500;700&display=swap" rel="stylesheet">
     <title>Val's Password Generator</title>
 </head>
 <body>
     <main>
-        <h1>Generate a <br/>random password</h1>
-        <p>Never use an insecure password again.</p>
-        <button onclick="generatePasswords()">Generate passwords</button>
-        <hr />
-        <p id="pass-one">password1</p>
-        <p id="pass-two">password2</p>
+        <h1>Generate a <span class="split-heading">random password</span></h1>
+
+        <p class="lower-text">Never use an insecure password again.</p>
+
+        <button class="generate-btn" onclick="generatePasswords()">Generate passwords</button>
+
+        <div class="line"></div>
+
+        <div class="passwords">
+            <p id="pass-one">password1</p>
+            <p id="pass-two">password2</p>
+        </div>    
     </main>
     <script src="index.js"></script>
 </body>
