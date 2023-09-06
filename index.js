@@ -4,8 +4,6 @@ let passOne = document.getElementById("pass-one");
 let passTwo = document.getElementById("pass-two");
 let passLength = 16;
 
-
-
 function getRandomIndex() {
    return Math.floor(Math.random() * characters.length)
 }

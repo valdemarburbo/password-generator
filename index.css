@@ -32,6 +32,7 @@ h1 {
 .options {
     display: flex;
     justify-content: space-between;
+    gap: 0.5rem;
 }
 
 .lower-text.choice {
@@ -65,6 +66,7 @@ h1 {
 .generate-btn:hover,
 .btn:hover {
     background-color: #1bd497;
+    cursor: pointer;
 }
 
 .btn:active {
@@ -75,12 +77,19 @@ h1 {
 .line {
     width: 100%;
     border-top:#2F3E53 solid 2px;
-    margin: 0.5rem 0;
+    margin: 0.5rem 0 1rem 0;
+}
+
+.pass-p {
+    color: #D5D4D8;
+    font-size: 0.95rem;
+    text-align: center;
 }
 
 .passwords {
     display: flex;
     gap: 1rem;
+    flex-wrap: wrap;
 }
 
 #pass-one,
@@ -92,4 +101,17 @@ h1 {
     /* width: fit-content; */
     padding: 0.5rem;
     flex-grow: 1;
+    margin: 0;
+}
+
+#pass-one:hover,
+#pass-two:hover {
+    background-color: #42536b;
+    cursor: pointer;
+}
+
+#pass-one:active,
+#pass-two:active {
+    background-color: #42536b;
+    cursor: pointer;
 }
