@@ -74,6 +74,10 @@ h1 {
     /* font-weight: 700; */
 }
 
+.clicked {
+    background-color: #13b680;
+}
+
 .line {
     width: 100%;
     border-top:#2F3E53 solid 2px;
