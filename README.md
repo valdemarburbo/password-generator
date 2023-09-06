@@ -5,16 +5,16 @@ Val's Password Generator
 Valdemar Burbo
 
 ## Description
-A basketball score tracking app utilising JS, HTML and CSS.
+A random password generator app built with JS, HTML and CSS.
 
 Features:
 
-- Keeps track of score and periods.
-- Highlights the leading team.
-- Adds score in 1, 2 and 3 point increments.
-- Resets the score and period using New Game button.
+- Ability to choose length between 8, 16 and 24 characters.
+- Ability to alter character options between letters with numbers, letters with special characters and everything combined.
+- Random password generation.
+- Copy a password to clipboard on click.
 
 Upcoming features:
 
-- Timer.
-- Ability to save score.
+- Light mode / dark mode.
+- More character and length options.
