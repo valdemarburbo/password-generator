@@ -17,7 +17,7 @@
 
         <div class="options">
             <div>
-                <p class="lower-text choice">Choose password length:</p>
+                <p class="lower-text choice">Choose password:</p>
 
                 <button class="btn" id="length-8" onclick="setLength8()">8</button>
                 <button class="btn" id="length-16" onclick="setLength16()">16</button>
@@ -39,8 +39,8 @@
         <div class="line"></div>
 
         <div class="passwords">
-            <p id="pass-one" onclick="copyPassword()">password1</p>
-            <p id="pass-two">password2</p>
+            <p id="pass-one" onclick="copyPassword(passOne.textContent)">password1</p>
+            <p id="pass-two" onclick="copyPassword(passTwo.textContent)">password2</p>
         </div>    
     </main>
     <script src="index.js"></script>

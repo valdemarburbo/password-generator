@@ -6,9 +6,10 @@ body {
 
 main {
     background-color: #273549;
-    margin: 3rem;
+    margin: 3rem auto;
     padding: 3rem 2rem;
     border-radius: 0.5rem;
+    max-width: 685px;
 }
 
 h1 {
@@ -66,9 +67,7 @@ h1 {
     background-color: #1bd497;
 }
 
-.btn:focus,
-.btn:active,
-.btn:visited {
+.btn:active {
     background-color: #1bd497;
     /* font-weight: 700; */
 }
@@ -81,7 +80,7 @@ h1 {
 
 .passwords {
     display: flex;
-    justify-content: space-around;
+    gap: 1rem;
 }
 
 #pass-one,
@@ -90,6 +89,7 @@ h1 {
     color: #55F991;
     text-align: center;
     border-radius: 0.25rem;
-    width: 40%;
+    /* width: fit-content; */
     padding: 0.5rem;
+    flex-grow: 1;
 }
